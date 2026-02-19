@@ -100,7 +100,11 @@ It opens in your browser at `localhost:8501`. Models train automatically on firs
 
 **Important — error range:** the predictions shown carry a large margin of error. The Random Forest validation MAE is ~38,600 ha and the linear model's is ~114,000 ha. For context, most countries in the dataset deforest between 4,000 and 76,000 ha/year — so predictions for low-deforestation countries are rough estimates, not precise figures. The dashboard is best used to explore the _direction_ of relationships (what happens when urban population increases, or physicians per thousand drops) rather than to produce exact forecasts.
 
-Mexico Example with the data gotten from the csv and got a 52,000 aproximate prediction of hectares per year.
+Mexico Example with the data gotten from the csv and got a 52,000 aproximate prediction of hectares per year. Design of the streamlit visual: 
+
+<img width="1440" height="900" alt="Screen Shot 2026-02-19 at 0 24 35" src="https://github.com/user-attachments/assets/44009e00-94f1-4c7d-bec1-3b83c674d1fc" />
+
+
 
 ---
 
