@@ -75,13 +75,13 @@ The goal is not only prediction, but interpretation: understanding which structu
 
 ## Files
 
-| File                                                                                                             | Description                                                      |
-| ---------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------- |
+| File                                                                                                             | Description                                                     |
+| ---------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------- |
 | [`deforestation-regression.ipynb`](deforestation-regression.ipynb)                                               | Full Jupyter Notebook. Analysis, models, inference, conclusions |
 | [`deforestation-regression.html`](deforestation-regression.html)                                                 | Static HTML export. Readable without running code               |
-| [`data/world-data/world-data-2023.csv`](data/world-data/world-data-2023.csv)                                     | World Bank socio-economic indicators (via Kaggle)                |
-| [`data/deforestation/annual-deforestation.csv`](data/deforestation/annual-deforestation.csv)                     | Annual deforestation by country (Our World in Data)              |
-| [`data/deforestation/annual-deforestation.metadata.json`](data/deforestation/annual-deforestation.metadata.json) | Metadata for the deforestation dataset                           |
+| [`data/world-data/world-data-2023.csv`](data/world-data/world-data-2023.csv)                                     | World Bank socio-economic indicators (via Kaggle)               |
+| [`data/deforestation/annual-deforestation.csv`](data/deforestation/annual-deforestation.csv)                     | Annual deforestation by country (Our World in Data)             |
+| [`data/deforestation/annual-deforestation.metadata.json`](data/deforestation/annual-deforestation.metadata.json) | Metadata for the deforestation dataset                          |
 
 ---
 
