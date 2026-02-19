@@ -85,6 +85,25 @@ The goal is not only prediction, but interpretation: understanding which structu
 
 ---
 
+## Interactive Dashboard (In process - beta)
+
+An optional Streamlit dashboard (`dashboard.py`) is included as a predictive visual explorer. It loads the raw data, retrains both models, and lets you adjust sliders for each of the 9 features to see how predicted deforestation changes in real time.
+
+**To run it:**
+
+```bash
+pip install streamlit plotly scikit-learn pandas numpy
+streamlit run dashboard.py
+```
+
+It opens in your browser at `localhost:8501`. Models train automatically on first load (~2 seconds) and stay cached while the app is running.
+
+**Important — error range:** the predictions shown carry a large margin of error. The Random Forest validation MAE is ~38,600 ha and the linear model's is ~114,000 ha. For context, most countries in the dataset deforest between 4,000 and 76,000 ha/year — so predictions for low-deforestation countries are rough estimates, not precise figures. The dashboard is best used to explore the _direction_ of relationships (what happens when urban population increases, or physicians per thousand drops) rather than to produce exact forecasts.
+
+Mexico Example with the data gotten from the csv and got a 52,000 aproximate prediction of hectares per year.
+
+---
+
 ## Tools
 
-`Python` · `pandas` · `numpy` · `scikit-learn` · `statsmodels` · `matplotlib` · `seaborn`
+`Python` · `pandas` · `numpy` · `scikit-learn` · `statsmodels` · `matplotlib` · `seaborn` · `streamlit` · `plotly`
