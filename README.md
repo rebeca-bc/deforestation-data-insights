@@ -82,6 +82,7 @@ The goal is not only prediction, but interpretation: understanding which structu
 | [`data/world-data/world-data-2023.csv`](data/world-data/world-data-2023.csv)                                     | World Bank socio-economic indicators (via Kaggle)               |
 | [`data/deforestation/annual-deforestation.csv`](data/deforestation/annual-deforestation.csv)                     | Annual deforestation by country (Our World in Data)             |
 | [`data/deforestation/annual-deforestation.metadata.json`](data/deforestation/annual-deforestation.metadata.json) | Metadata for the deforestation dataset                          |
+| [`dashboard.py`](dashboard.py) | Streamlit visualization app with a slider for predictions based on the regression models built (linear and random forest predictions)           |
 
 ---
 
