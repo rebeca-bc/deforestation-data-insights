@@ -29,7 +29,7 @@ The goal is not only prediction, but interpretation: understanding which structu
 | `CPI Change (%)`                | World Bank        | Annual inflation rate                                      |
 | `Infant mortality`              | World Bank        | Deaths per 1,000 live births                               |
 
-> Full data dictionary with all 35 variables is included in the notebook.
+> Full data dictionary with all (the starting 35 variables) the relevant 22 variables is included in the notebook.
 
 ---
 
